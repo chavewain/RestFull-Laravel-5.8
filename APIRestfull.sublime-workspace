@@ -1,0 +1,293 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"num",
+				"numero_dos"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"leyend",
+				"leyend-main"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull"
+	],
+	"file_history":
+	[
+		"/private/var/folders/zv/1z9x_sb14y118q7glp5bbb2w0000gp/T/wzQL.mwDe76/adminlte-generator-5.8/config/database.php",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/Components/userAccessAdmin/v1/index.html",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/evaluationList/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/evaluationList/v1/index.html",
+		"/private/var/folders/zv/1z9x_sb14y118q7glp5bbb2w0000gp/T/wzQL.ESVal0/PCS/WebContent/app/app.module.js",
+		"/private/var/folders/zv/1z9x_sb14y118q7glp5bbb2w0000gp/T/wzQL.hNSDE7/PCS/WebContent/package.json",
+		"/Applications/MAMP/htdocs/laravelPassport/.env",
+		"/Applications/MAMP/htdocs/insol/app/Http/Controllers/Auth/RegisterController.php",
+		"/Applications/MAMP/htdocs/insol/app/Http/Controllers/auth/RegisterController.php",
+		"/Applications/MAMP/htdocs/miamorpr/config/auth.php",
+		"/private/var/folders/zv/1z9x_sb14y118q7glp5bbb2w0000gp/T/wzQL.Jkqys2/messages.json",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/app.run.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/app.module.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/calendar/v1/modals/layout.html",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/node_modules/insolservices/dist/insolService.1.0.9.js",
+		"/Users/dionisiochavez/Documents/INSOL/SAMA-WebClient/src/main/webapp/node_modules/insolservices/src/AuthenticationService/AuthenticationService.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/package.json",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/.idea/workspace.xml",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/samaActivities/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/talLookup/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/common/data/reports.json",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/planComunicacion/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/PlanComunicacion/v1/component.service.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/pbl/v1/index.html",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/pbl/v1/component.js",
+		"/Users/dionisiochavez/Desktop/HR.sql",
+		"/Users/dionisiochavez/Documents/INSOL/SAMA-WebClient/src/main/webapp/app/common/components/schedules/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/schedules/v1/component-old.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/calendar/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/checkboxesDeluxe/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/radioButtonsDeluxe/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/radioButtonsDeluxe/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/radioButtonsDeluxe/v1/controller.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/checkboxesDeluxe/v1/controller.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/plan/v1/index-activities.html",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/plan/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/schoolList/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/filenetFileUpload/v1/fileUpload.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/seguimientoModos/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/modosInstruccion/v1/component.service.js",
+		"/Users/dionisiochavez/Documents/INSOL/insolServices/dist/insolService.1.0.0.min.js",
+		"/Users/dionisiochavez/Documents/INSOL/insolServices/gulpfile.js",
+		"/Users/dionisiochavez/Documents/INSOL/insolServices/package.json",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/common/services/localSession.insol.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/modules/portal/dashboard/index.html",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/genericEventV2/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/genericEventV2/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/deeEnmienda/schoolList/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/deeEnmienda/plan/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/deeEnmienda/plan/v1/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/sitroster/v1/sitDeliverables/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/sitroster/v1/sitDeliverables/index.html",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/sitroster/v1/index.html",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/Components/sitroster/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/Components/calendar/v1/component.js",
+		"/Users/dionisiochavez/Documents/INSOL/SAMA-WebClient/src/main/webapp/app/common/components/budget/component.js",
+		"/Users/dionisiochavez/Desktop/JAVA/practica3/Suma.java",
+		"/Users/dionisiochavez/Documents/INSOL/SAMA-WebClient/src/main/webapp/app/common/components/budget/component.service.js",
+		"/Users/dionisiochavez/Desktop/JAVA/practica1/chavez.java",
+		"/Users/dionisiochavez/Desktop/JAVA/practica2/Errores.java",
+		"/Users/dionisiochavez/Desktop/chavez.java",
+		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/index.html",
+		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/roleManager.component.js",
+		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/component.service.js",
+		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/modals/componentsPages.html",
+		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/modals/editComponentsPages.html",
+		"/Users/dionisiochavez/Documents/INSOL/SAMA-WebClient/src/main/webapp/assets/css/sama.css",
+		"/Users/dionisiochavez/Documents/INSOL/Console/web/app.routes.js",
+		"/Users/dionisiochavez/Documents/INSOL/insol/app/app.main.js",
+		"/Users/dionisiochavez/Documents/INSOL/UTILS/component.services.js",
+		"/Users/dionisiochavez/Documents/INSOL/UTILS/components.js",
+		"/Applications/MAMP/htdocs/snowberrymedia/js_composer_theme/config/grids/vc-grids-functions.php",
+		"/Users/dionisiochavez/Downloads/my-plugin 2/assets/js/demo.js",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/plugins/versal-connect/classes/class-versal-admin.php",
+		"/Users/dionisiochavez/Documents/PROPUESTA TECNICA.html",
+		"/Users/dionisiochavez/Desktop/leyend.html",
+		"/Users/dionisiochavez/Desktop/CF7-Disable-Dates/main.php",
+		"/Users/dionisiochavez/Desktop/CF7-Disable-Dates/main.php---",
+		"/Users/dionisiochavez/Desktop/CF7-Disable-Dates/html/main.php",
+		"/Users/dionisiochavez/Desktop/CF7-Disable-Dates/get_all_calendar_non_peak.php",
+		"/Users/dionisiochavez/Downloads/source/index.html",
+		"/Applications/MAMP/htdocs/content-/themes/midpennbank/inc/theme/bank_logo.php",
+		"/Applications/MAMP/htdocs/mid_penn_bancorp/www/wp-cron.php",
+		"/Applications/MAMP/htdocs/mid_penn_bancorp/www/content/plugins/wp-pagenavi/core.php",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Applications/MAMP/bin/mamp/php/JSON.php",
+		"/Applications/MAMP/bin/php/browscap.ini",
+		"/Users/dionisiochavez/Documents/PROJECTS/WebPageFX/midpennb_live2 copy.sql",
+		"/Applications/MAMP/bin/php/php7.2.1/conf/php.ini",
+		"/Applications/MAMP/bin/php/php7.2.1/conf/php.ini.temp",
+		"/Applications/MAMP/htdocs/mid_penn_bancorp/www/wp-config.php",
+		"/Applications/MAMP/htdocs/210/www/.htaccess",
+		"/private/var/folders/zv/1z9x_sb14y118q7glp5bbb2w0000gp/T/fz3temp-2/assets.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "APIRestfull.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
