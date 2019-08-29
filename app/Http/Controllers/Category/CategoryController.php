@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Category;
 
 use App\Category;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use App\Http\Controllers\ApiController;
 
 class CategoryController extends ApiController
@@ -64,14 +63,17 @@ class CategoryController extends ApiController
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Category $category)
-    {
+    {   
+        dd($request);
+
         $category->fill($request->only([
             'name',
             'description',
         ]) );
 
-        if($category->isClean())
+        if($category->isClean()){
             return $this->errorResponse('Debes especificar al menos un valor a ser actualizado.', 422);
+        }
 
         $category->save();
 

@@ -14,9 +14,9 @@ class Seller extends User
 
 		static::addGlobalScope(new SellerScope);
 	}
-
+	
     public function products()
-    {
+    {	
     	return $this->hasMany(product::class);
     }
 }

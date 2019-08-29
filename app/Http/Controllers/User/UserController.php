@@ -74,10 +74,10 @@ class UserController extends ApiController
             'admin' => 'in:' . User::USUARIO_ADMINISTRADOR . ',' . User::USUARIO_REGULAR
         ];
 
-        if($this->validate($request, $reglas))
-            return 'ready!';
-        else
-            return 'fail!';
+        // if($this->validate($request, $reglas))
+        //     return 'ready!';
+        // else
+        //     return 'fail!';
 
         if($request->has('name')){
             $user->name = $request->name;
