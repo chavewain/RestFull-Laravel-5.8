@@ -72,7 +72,7 @@ class User extends Authenticatable
     ];
 
     public function esVerificado(){
-        return $this->verified == User::USUARIO_ADMINISTRADOR;
+        return $this->verified == User::USUARIO_VERIFICADO;
     }
 
     public function esAdministrador(){
