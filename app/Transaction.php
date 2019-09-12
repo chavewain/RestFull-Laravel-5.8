@@ -5,9 +5,15 @@ namespace App;
 use App\Buyer;
 use App\Product;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Schema\softDeletes;
+use App\Transformers\TransactionTransformer;
 
 class Transaction extends Model
 {	
+
+    use softDeletes;
+
+    public $transformer = TransactionTransformer::class;
 
     protected $fillable = [
     	'quantity',

@@ -48,7 +48,7 @@ class SellerProductController extends ApiController
         $data = $request->all();
 
         $data['status'] =  Product::PRODUCTO_NO_DISPONIBLE;
-        $data['image'] = '1.jpg';
+        $data['image'] = $request->image->store('');
         $data['seller_id'] = $seller->id;
 
         $product = Product::create($data);
@@ -83,6 +83,12 @@ class SellerProductController extends ApiController
             'quantity'
         ]));
 
+        if($request->hasFile('image')){
+            Storage::delete($product->image);
+
+            $product->image = $request->image->store('');
+        }
+
 
         if($request->has('status')){
             $product->status = $Request->status;
@@ -109,6 +115,8 @@ class SellerProductController extends ApiController
     public function destroy(Seller $seller, Product $product)
     {
         $this->verificarVendedor($seller, $product);
+
+        Storage::delete($product->image);
 
         $product->delete();
 
