@@ -15,18 +15,37 @@ class ProductTransformer extends TransformerAbstract
     public function transform(Product $product)
     {
         return [
-            'identificador' => (int)$user->id,
-            'titulo' => (string)$user->name,
-            'detalles' => (string)$user->description,
-            'disponibles' => (int)$user->quantity,
-            'estado' => (string)$user->status,
-            'imagen' => url('imgs/{$user->image}'),
-            'vendedor' => (string)$user->seller_id,
-            'esAdministrador' => ($user->admin === true),
-            'fechaCreacion' => (string)$user->creted_at,
-            'fechaActualizacion' => (string)$user->updated_at,
-            'fechaEliminacion' => isset($user->deleted_at) ? (string) $user->deleted_at : null,
+            'identificador' => (int)$product->id,
+            'titulo' => (string)$product->name,
+            'detalles' => (string)$product->description,
+            'disponibles' => (int)$product->quantity,
+            'estado' => (string)$product->status,
+            'imagen' => url('imgs/{$product->image}'),
+            'vendedor' => (string)$product->seller_id,
+            'esAdministrador' => ($product->admin === true),
+            'fechaCreacion' => (string)$product->creted_at,
+            'fechaActualizacion' => (string)$product->updated_at,
+            'fechaEliminacion' => isset($product->deleted_at) ? (string) $product->deleted_at : null,
 
         ];
+    }
+
+    public static function originalAttributes($index)
+    {
+        $attributes = [
+            'identificador' => 'id',
+            'titulo' => 'name',
+            'detalles' => 'description',
+            'disponibles' => 'quantity',
+            'estado' => 'status',
+            'imagen' => 'image',
+            'vendedor' => 'seller_id',
+            'esAdministrador' => 'admin',
+            'fechaCreacion' => 'creted_at',
+            'fechaActualizacion' => 'updated_at',
+            'fechaEliminacion' => 'deleted_at',   
+        ];
+
+        return (isset($attributes[$index])) ? $attributes[$index] : null;
     }
 }

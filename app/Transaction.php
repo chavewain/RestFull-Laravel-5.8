@@ -11,7 +11,7 @@ use App\Transformers\TransactionTransformer;
 class Transaction extends Model
 {	
 
-    use softDeletes;
+    // use softDeletes;
 
     public $transformer = TransactionTransformer::class;
 
