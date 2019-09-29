@@ -1,10 +1,7 @@
 <?php
-
 namespace App\Transformers;
-
 use App\Product;
 use League\Fractal\TransformerAbstract;
-
 class ProductTransformer extends TransformerAbstract
 {
     /**
@@ -18,19 +15,38 @@ class ProductTransformer extends TransformerAbstract
             'identificador' => (int)$product->id,
             'titulo' => (string)$product->name,
             'detalles' => (string)$product->description,
-            'disponibles' => (int)$product->quantity,
+            'disponibles' => (string)$product->quantity,
             'estado' => (string)$product->status,
-            'imagen' => url('imgs/{$product->image}'),
-            'vendedor' => (string)$product->seller_id,
-            'esAdministrador' => ($product->admin === true),
-            'fechaCreacion' => (string)$product->creted_at,
+            'imagen' => url("img/{$product->image}"),
+            'vendedor' => (int)$product->seller_id,
+            'fechaCreacion' => (string)$product->created_at,
             'fechaActualizacion' => (string)$product->updated_at,
             'fechaEliminacion' => isset($product->deleted_at) ? (string) $product->deleted_at : null,
-
+            'links' => [
+                [
+                    'rel' => 'self',
+                    'href' => route('products.show', $product->id),
+                ],
+                [
+                    'rel' => 'product.buyers',
+                    'href' => route('products.buyers.index', $product->id),
+                ],
+                [
+                    'rel' => 'product.categories',
+                    'href' => route('products.categories.index', $product->id),
+                ],
+                [
+                    'rel' => 'product.transactions',
+                    'href' => route('products.transactions.index', $product->id),
+                ],
+                [
+                    'rel' => 'seller',
+                    'href' => route('sellers.show', $product->seller_id),
+                ],
+            ],
         ];
     }
-
-    public static function originalAttributes($index)
+    public static function originalAttribute($index)
     {
         $attributes = [
             'identificador' => 'id',
@@ -40,12 +56,26 @@ class ProductTransformer extends TransformerAbstract
             'estado' => 'status',
             'imagen' => 'image',
             'vendedor' => 'seller_id',
-            'esAdministrador' => 'admin',
-            'fechaCreacion' => 'creted_at',
+            'fechaCreacion' => 'created_at',
             'fechaActualizacion' => 'updated_at',
-            'fechaEliminacion' => 'deleted_at',   
+            'fechaEliminacion' => 'deleted_at',
         ];
-
-        return (isset($attributes[$index])) ? $attributes[$index] : null;
+        return isset($attributes[$index]) ? $attributes[$index] : null;
+    }
+    public static function transformedAttribute($index)
+    {
+        $attributes = [
+            'id' => 'identificador',
+            'name' => 'titulo',
+            'description' => 'detalles',
+            'quantity' => 'disponibles',
+            'status' => 'estado',
+            'image' => 'imagen',
+            'seller_id' => 'vendedor',
+            'created_at' => 'fechaCreacion',
+            'updated_at' => 'fechaActualizacion',
+            'deleted_at' => 'fechaEliminacion',
+        ];
+        return isset($attributes[$index]) ? $attributes[$index] : null;
     }
 }

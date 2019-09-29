@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"transformer"
+			],
+			[
+				"tra",
+				"$transformer〔variable〕"
+			],
+			[
+				"heade",
+				"headers"
+			],
+			[
+				"sh",
+				"showMessage〔function〕"
+			],
+			[
+				"sho",
+				"showOne〔function〕"
+			],
+			[
+				"US",
+				"USUARIO_VERIFICADO〔constant〕"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"produ",
+				"$product〔variable〕"
+			],
+			[
+				"show",
+				"showOne〔function〕"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"p",
+				"$product〔variable〕"
+			],
+			[
+				"catego",
+				"$category〔variable〕"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"categ",
+				"$categories〔variable〕"
+			],
+			[
+				"class_",
+				"class_basename〔function〕"
+			],
+			[
+				"A",
+				"ApiController〔class〕"
+			],
+			[
+				"strto",
+				"strtolower〔function〕"
+			],
+			[
+				"ver",
+				"verification_token"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
 				"un",
 				"undefined"
 			],
@@ -39,6 +115,114 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Exceptions/Handler.php",
+			"settings":
+			{
+				"buffer_size": 4846,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/User/UserController.php",
+			"settings":
+			{
+				"buffer_size": 4123,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/User.php",
+			"settings":
+			{
+				"buffer_size": 1886,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Seller.php",
+			"settings":
+			{
+				"buffer_size": 382,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Category.php",
+			"settings":
+			{
+				"buffer_size": 521,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Traits/ApiResponser.php",
+			"settings":
+			{
+				"buffer_size": 2210,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Transformers/UserTransformer.php",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Transformers/CategoryTransformer.php",
+			"settings":
+			{
+				"buffer_size": 1137,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Transformers/BuyerTransformer.php",
+			"settings":
+			{
+				"buffer_size": 1183,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 1135,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Kernel.php",
+			"settings":
+			{
+				"buffer_size": 2983,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/api.php",
+			"settings":
+			{
+				"buffer_size": 3206,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -51,12 +235,36 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"console",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
 		],
 		"width": 0.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 345.0,
 		"history":
 		[
 		]
@@ -72,10 +280,110 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull"
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/.vagrant",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Transformers",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/config",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/resources"
 	],
 	"file_history":
 	[
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Transaction.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Buyer.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Transformers/ProductTransformer.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Transformers/TransactionTransformer.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Transformers/SellerTransformer.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Transformers/BuyerTransformer.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Transformers/UserTransformer.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Mail/UserMailChanged.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/resources/views/emails/welcome.blade.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Middleware/SignatureMiddleware.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/storage/logs/laravel-2019-09-11.log",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/config/app.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Providers/AppServiceProvider.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Transformers/CategoryTransformer.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/database/seeds/DatabaseSeeder.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/resources/views/emails/confirm.blade.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Mail/UserMailChange.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Mail/UserCreated.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/resources/views/emails/prueba.blade.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/storage/logs/laravel-2019-09-05.log",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Traits/ApiResponser.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Category/CategoryController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Seller/SellerProductController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/config/filesystems.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/storage/logs/laravel-2019-09-03.log",
+		"/Users/dionisiochavez/Documents/fibonacci.html",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/User/UserController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/User.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/storage/logs/laravel-2019-09-02.log",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/config/services.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/config/mail.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/.env",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Product/ProductBuyerController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Product/ProductBuyerTransactionController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/public/imgs/.gitignore",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/public/.gitignore",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Product/ProductCategoryController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Product/ProductTransactionController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Seller/SellerBuyerController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Category.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Seller/SellerController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Product.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Seller/SellerTransactionController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Seller/SellerCategoryController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Seller.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Category/CategorySellerController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Category/CategoryBuyerController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Category/CategoryTransactionController.php",
+		"/Users/dionisiochavez/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/dionisiochavez/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Category/CategoryProductController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Buyer/BuyerCategoryController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Buyer/BuyerTransactionController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Buyer/BuyerSellerController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Buyer/BuyerProductController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Product/ProductController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Transaction/TransactionSellerController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Transaction/TransactionCategoryController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Transaction/TransactionController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Scopes/SellerScope.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/Buyer/BuyerController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/database/migrations/2019_08_03_030536_category_product_table.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/database/migrations/2019_08_02_234438_create_categories_table.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/database/migrations/2019_08_02_234309_create_products_table.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/filp/whoops/src/Whoops/Exception/Formatter.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/blog/.env",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/laravel/framework/src/Illuminate/Validation/Concerns/FormatsMessages.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/mockery/mockery/library/Mockery/Generator/MockDefinition.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/mockery/mockery/library/Mockery/Exception.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/league/flysystem/src/Exception.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/ApiController.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/routes/api.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Http/Controllers/BuyerController-old.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/Homestead.yaml",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/Vagrantfile",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/composer.json",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Traits/ApiResponser.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/database/migrations/2019_08_02_234344_create_transactions_table.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/database/factories/UserFactory.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/fzaninotto/faker/src/Faker/Generator.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/Users/dionisiochavez/Desktop/example.html",
+		"/Users/dionisiochavez/Library/Application Support/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/Users/dionisiochavez/Library/Application Support/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/app/Providers/RouteServiceProvider.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+		"/Users/dionisiochavez/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/dionisiochavez/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/laravel/framework/src/Illuminate/Notifications/RoutesNotifications.php",
+		"/Users/dionisiochavez/Documents/LARAVEL/APIRestfull/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php",
 		"/private/var/folders/zv/1z9x_sb14y118q7glp5bbb2w0000gp/T/wzQL.mwDe76/adminlte-generator-5.8/config/database.php",
 		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/Components/userAccessAdmin/v1/index.html",
 		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/evaluationList/v1/component.js",
@@ -108,67 +416,7 @@
 		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/checkboxesDeluxe/v1/component.services.js",
 		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/radioButtonsDeluxe/v1/component.services.js",
 		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/radioButtonsDeluxe/v1/component.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/radioButtonsDeluxe/v1/controller.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/checkboxesDeluxe/v1/controller.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/plan/v1/index-activities.html",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/plan/v1/component.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/schoolList/v1/component.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/filenetFileUpload/v1/fileUpload.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/seguimientoModos/v1/component.services.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/modosInstruccion/v1/component.service.js",
-		"/Users/dionisiochavez/Documents/INSOL/insolServices/dist/insolService.1.0.0.min.js",
-		"/Users/dionisiochavez/Documents/INSOL/insolServices/gulpfile.js",
-		"/Users/dionisiochavez/Documents/INSOL/insolServices/package.json",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/common/services/localSession.insol.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/modules/portal/dashboard/index.html",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/genericEventV2/v1/component.services.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/genericEventV2/v1/component.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/deeEnmienda/schoolList/v1/component.services.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/deeEnmienda/plan/v1/component.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/DEE/components/deeEnmienda/plan/v1/component.services.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/sitroster/v1/sitDeliverables/component.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/sitroster/v1/sitDeliverables/index.html",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/sitroster/v1/index.html",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/Components/sitroster/v1/component.js",
-		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/Components/calendar/v1/component.js",
-		"/Users/dionisiochavez/Documents/INSOL/SAMA-WebClient/src/main/webapp/app/common/components/budget/component.js",
-		"/Users/dionisiochavez/Desktop/JAVA/practica3/Suma.java",
-		"/Users/dionisiochavez/Documents/INSOL/SAMA-WebClient/src/main/webapp/app/common/components/budget/component.service.js",
-		"/Users/dionisiochavez/Desktop/JAVA/practica1/chavez.java",
-		"/Users/dionisiochavez/Desktop/JAVA/practica2/Errores.java",
-		"/Users/dionisiochavez/Desktop/chavez.java",
-		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/index.html",
-		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/roleManager.component.js",
-		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/component.service.js",
-		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/modals/componentsPages.html",
-		"/Users/dionisiochavez/Desktop/ROL MANAGER/roleManager/modals/editComponentsPages.html",
-		"/Users/dionisiochavez/Documents/INSOL/SAMA-WebClient/src/main/webapp/assets/css/sama.css",
-		"/Users/dionisiochavez/Documents/INSOL/Console/web/app.routes.js",
-		"/Users/dionisiochavez/Documents/INSOL/insol/app/app.main.js",
-		"/Users/dionisiochavez/Documents/INSOL/UTILS/component.services.js",
-		"/Users/dionisiochavez/Documents/INSOL/UTILS/components.js",
-		"/Applications/MAMP/htdocs/snowberrymedia/js_composer_theme/config/grids/vc-grids-functions.php",
-		"/Users/dionisiochavez/Downloads/my-plugin 2/assets/js/demo.js",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/plugins/versal-connect/classes/class-versal-admin.php",
-		"/Users/dionisiochavez/Documents/PROPUESTA TECNICA.html",
-		"/Users/dionisiochavez/Desktop/leyend.html",
-		"/Users/dionisiochavez/Desktop/CF7-Disable-Dates/main.php",
-		"/Users/dionisiochavez/Desktop/CF7-Disable-Dates/main.php---",
-		"/Users/dionisiochavez/Desktop/CF7-Disable-Dates/html/main.php",
-		"/Users/dionisiochavez/Desktop/CF7-Disable-Dates/get_all_calendar_non_peak.php",
-		"/Users/dionisiochavez/Downloads/source/index.html",
-		"/Applications/MAMP/htdocs/content-/themes/midpennbank/inc/theme/bank_logo.php",
-		"/Applications/MAMP/htdocs/mid_penn_bancorp/www/wp-cron.php",
-		"/Applications/MAMP/htdocs/mid_penn_bancorp/www/content/plugins/wp-pagenavi/core.php",
-		"/Applications/MAMP/conf/apache/httpd.conf",
-		"/Applications/MAMP/bin/mamp/php/JSON.php",
-		"/Applications/MAMP/bin/php/browscap.ini",
-		"/Users/dionisiochavez/Documents/PROJECTS/WebPageFX/midpennb_live2 copy.sql",
-		"/Applications/MAMP/bin/php/php7.2.1/conf/php.ini",
-		"/Applications/MAMP/bin/php/php7.2.1/conf/php.ini.temp",
-		"/Applications/MAMP/htdocs/mid_penn_bancorp/www/wp-config.php",
-		"/Applications/MAMP/htdocs/210/www/.htaccess",
-		"/private/var/folders/zv/1z9x_sb14y118q7glp5bbb2w0000gp/T/fz3temp-2/assets.php"
+		"/Users/dionisiochavez/Documents/INSOL/PCS/WebContent/app/SAMA/components/radioButtonsDeluxe/v1/controller.js"
 	],
 	"find":
 	{
@@ -179,6 +427,7 @@
 		"height": 101.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -186,6 +435,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$",
+			"user",
+			"Sharon Green",
+			"UserMailChange",
+			"La cuenta ha sido verificada",
+			"withTimestamps",
+			"HttpException",
+			"ready!",
+			"$hidden",
+			"DB::statement('SET FOREIGN_KEY_CHECKS=0;');",
+			"unauth",
+			"unaut",
+			"BaseRequest",
+			"exception",
+			");\n",
+			"convertValidationExceptionToResponse",
+			"return response()->json([",
+			"convertValidationException",
+			"convertValidation Exception",
+			"Controller",
+			"compradores",
+			"$table->foreign('buyer_id')",
+			"Faker\\Generator $faker",
+			"User::id",
+			"ramdom",
+			"generarVerificationToken",
+			"ramdomElement",
+			"throw new \\InvalidArgumentException(sprintf('Unknown formatter \"%s\"', $formatter)",
+			"Generator.php",
+			"ramdomElement",
+			"Transaction"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -203,8 +483,374 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Exceptions/Handler.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1491,
+								1491
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Controllers/User/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2285,
+								2285
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								532,
+								487
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Seller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								161
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Category.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								503
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Traits/ApiResponser.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1547,
+								1547
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 311.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Transformers/UserTransformer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1264,
+								1199
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Transformers/CategoryTransformer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1128,
+								1128
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/Transformers/BuyerTransformer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/Http/Kernel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								833
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2642,
+								2642
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -214,7 +860,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -256,6 +902,38 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"api",
+				"app/Http/Traits/ApiResponser.php"
+			],
+			[
+				"apiR",
+				"app/Http/Traits/ApiResponser.php"
+			],
+			[
+				"appse",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"laravel.log",
+				"storage/logs/laravel-2019-09-05.log"
+			],
+			[
+				"appser",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"ApiR",
+				"app/Http/Traits/ApiResponser.php"
+			],
+			[
+				"handler",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php"
+			],
+			[
+				"unuthe",
+				"vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php"
+			]
 		],
 		"width": 0.0
 	},
@@ -285,7 +963,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 213.0,
+	"side_bar_width": 424.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

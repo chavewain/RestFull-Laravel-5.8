@@ -64,7 +64,7 @@ class CategoryController extends ApiController
      */
     public function update(Request $request, Category $category)
     {   
-        dd($request);
+
 
         $category->fill($request->only([
             'name',

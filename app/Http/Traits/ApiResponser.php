@@ -2,12 +2,15 @@
 
 namespace App\Http\Traits;
 
-use Illuminate\Support\Collection;
-// use Illuminate\Support\Collection;
-// use Illuminate\Database\Eloquent\Model;
-// use Illuminate\Http\Request;
 
-trait ApiResponser
+
+use Illuminate\Http\Request;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Validator;
+
+trait ApiResponser  
 {
     private function successResponse($data, $code)
     {
@@ -30,7 +33,9 @@ trait ApiResponser
 
         $collection = $this->filterData($collection, $transformer);
         $collection = $this->sortData($collection, $transformer);
+        $collection = $this->paginate($collection);
         $collection = $this->transformData($collection, $transformer);
+        $collection = $this->cacheResponse($collection);
 
     	return $this->successResponse($collection, $code);
     }
@@ -68,11 +73,57 @@ trait ApiResponser
         return $collection;
     }
 
+    function paginate(Collection $collection)
+    {
+
+        $rules = [
+            'per_pege' => 'integer|min:2|max:50'
+        ];
+        
+        Validator::validate(request()->all(), $rules);
+
+        $perPage = 20;
+
+        if(request()->has('per_page')){
+            $perPage = (int)request()->per_page;
+        }
+            
+
+        $page = LengthAwarePaginator::resolveCurrentPage();
+
+        $results =$collection->slice(($page -1) * $perPage, $perPage)->values();
+
+        $paginated = new LengthAwarePaginator($results, $collection->count(), $perPage, $page, [
+            'path' => LengthAwarePaginator::resolveCurrentPath(),
+        ]);
+
+        $paginated->appends(request()->all());
+
+        return $paginated;
+    }
 
     protected function transformData($data, $transformer)
     {
         $transformation = fractal($data, new $transformer);
 
         return $transformation->toArray();
+    }
+
+    protected function cacheResponse($data)
+    {
+        $url = request()->url();
+
+        $queryParams = request()->query();
+
+        ksort($queryParams);
+
+        $queryString = http_build_query($queryParams);
+        
+        $fullUrl = "{$url}?{$queryString}";
+
+
+        return Cache::remember($fullUrl, 30/60, function() use($data) {
+            return $data;
+        });
     }
 }
