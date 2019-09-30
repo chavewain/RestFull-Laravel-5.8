@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Transaction;
 
+use App\Http\Controllers\ApiController;
 use App\Transaction;
 use Illuminate\Http\Request;
-use App\Http\Controllers\ApiController;
+use Illuminate\Support\Collection;
 
 class TransactionSellerController extends ApiController
 {
@@ -13,13 +14,14 @@ class TransactionSellerController extends ApiController
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Transaction $transaction)
+    public function index(Collection $collection,Transaction $transaction)
     {
 
-
+        // dd($transaction);
         $seller = $transaction->product->seller;
 
-        return $this->showAll($seller);
+
+        return $this->showOne($seller);
     }
 
   

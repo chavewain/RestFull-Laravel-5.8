@@ -22,6 +22,7 @@ class ProductTransformer extends TransformerAbstract
             'fechaCreacion' => (string)$product->created_at,
             'fechaActualizacion' => (string)$product->updated_at,
             'fechaEliminacion' => isset($product->deleted_at) ? (string) $product->deleted_at : null,
+            
             'links' => [
                 [
                     'rel' => 'self',

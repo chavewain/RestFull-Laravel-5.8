@@ -118,11 +118,11 @@ trait ApiResponser
         ksort($queryParams);
 
         $queryString = http_build_query($queryParams);
-        
+
         $fullUrl = "{$url}?{$queryString}";
 
 
-        return Cache::remember($fullUrl, 30/60, function() use($data) {
+        return Cache::remember($fullUrl, 30, function() use($data) {
             return $data;
         });
     }
