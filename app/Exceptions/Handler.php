@@ -93,8 +93,14 @@ class Handler extends ExceptionHandler
         if ($exception instanceof TokenMismatchException) {
             return redirect()->back()->withInput($request->input());
         }
+        if ($exception instanceof TokenMismatchException) {
+            $codigo = $exception->errorInfo[1];
+            if ($codigo == 1451) {
+                return $this->errorResponse('No se puede eliminar de forma permamente el recurso porque está relacionado con algún otro.', 409);
+            }
+        }
         if (config('app.debug')) {
-            return parent::render($request, $exception);            
+            return redirect()->back()->withInput($request->input());   
         }
         return $this->errorResponse('Falla inesperada. Intente luego', 500);
         // }
@@ -110,25 +116,14 @@ class Handler extends ExceptionHandler
      * @return \Symfony\Component\HttpFoundation\Response
      */
     protected function unauthenticated($request, AuthenticationException $exception)
-    {
+    {   
 
-        $guard = array_get($exception->guards(), 0);
-
-        dd($guard);
-
-        switch ($guard) {
-            case 'admin':
-                $redirect = route('admin.login');
-                break;
-            
-            default:
-                $redirect = route('login');
-                break;
+        if($this->isFrontend($request)){
+            return redirect()->guest('login');
         }
 
-        return $request->expectsJson()
-                    ? response()->json(['message' => $exception->getMessage()], 401)
-                    : redirect()->guest($exception->redirectTo() ?? route('login'));
+        return $this->errorResponse('No autenticado.', 401);
+
     }
 
 

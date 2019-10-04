@@ -48,7 +48,7 @@ class CategoryTransformer extends TransformerAbstract
         $attributes = [
             'identificador' => 'id',
             'titulo' => 'name',
-            'detalles' => 'description',
+            'descripcion' => 'description',
             'fechaCreacion' => 'created_at',
             'fechaActualizacion' => 'updated_at',
             'fechaEliminacion' => 'deleted_at',
@@ -61,7 +61,7 @@ class CategoryTransformer extends TransformerAbstract
         $attributes = [
             'id' => 'identificador',
             'name' => 'titulo',
-            'description' => 'detalles',
+            'description' => 'descripcion',
             'created_at' => 'fechaCreacion',
             'updated_at' => 'fechaActualizacion',
             'deleted_at' => 'fechaEliminacion',
