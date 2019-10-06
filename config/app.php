@@ -167,7 +167,8 @@ return [
         /*
          * Package Service Providers...
          */
-        Laravel\Passport\PasswordResetServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
+        // Laravel\Passport\PasswordResetServiceProvider::class,
         Spatie\Fractal\FractalServiceProvider::class,
         /*
          * Application Service Providers...

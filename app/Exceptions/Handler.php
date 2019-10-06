@@ -91,7 +91,7 @@ class Handler extends ExceptionHandler
             }
         }
         if ($exception instanceof TokenMismatchException) {
-            return redirect()->back()->withInput($request->input());
+            // return redirect()->back()->withInput($request->input());
         }
         if ($exception instanceof TokenMismatchException) {
             $codigo = $exception->errorInfo[1];

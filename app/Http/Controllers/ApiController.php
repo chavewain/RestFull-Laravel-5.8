@@ -8,4 +8,9 @@ use App\Http\Traits\ApiResponser;
 class ApiController extends Controller
 {	
     use ApiResponser;
+
+    function __construct()
+    {
+    	$this->middleware('auth:api');
+    }
 }

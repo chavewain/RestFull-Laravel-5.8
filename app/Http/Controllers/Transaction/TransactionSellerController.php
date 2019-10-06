@@ -9,6 +9,11 @@ use Illuminate\Support\Collection;
 
 class TransactionSellerController extends ApiController
 {
+    function __construct()
+    {
+        parent::__construct();
+    }
+
     /**
      * Display a listing of the resource.
      *
